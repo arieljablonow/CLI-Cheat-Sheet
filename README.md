@@ -2,17 +2,17 @@
 
 ## Directory Traversal
 
-`cd` [directory] 
+`cd` [directory] <br />
 naviate to 'directory'
 
-`cd -` 
+`cd -` <br />
 go back one level 
 
-`cd ~`
+`cd ~` <br />
 go to home directory 
 
-`cd ..`
+`cd ..` <br />
 go back one directory
 
-`pwd`
+`pwd` <br />
 get current file path
