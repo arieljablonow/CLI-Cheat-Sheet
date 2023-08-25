@@ -1,1 +1,1 @@
-# CLI-Cheat-Sheet
+# CLI Cheat Sheet
