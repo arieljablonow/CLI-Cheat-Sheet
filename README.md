@@ -38,7 +38,7 @@ lsit content + file info
 `cd dir && ls`
 navigate to dir and list content 
 
-##files
+## Files
 
 
 
