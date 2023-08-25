@@ -2,8 +2,8 @@
 
 ## Directory Traversal
 
-`cd directory` 
-naviate to 'directory'
+`cd dir` 
+naviate to 'dir'
 
 `cd dir1/dir1/dir3` 
 navigate to dir3
@@ -15,7 +15,19 @@ go back one level
 go to home directory 
 
 `cd ..` 
-go back one directory
+return to parent directory
+
+`cd -`
+return to previous working directory 
 
 `pwd` 
 get current file path
+
+`ls`
+list content of current directory 
+
+`cd dir && ls`
+navigate to dir and list content 
+
+
+
