@@ -2,8 +2,11 @@
 
 ## Directory Traversal
 
-`cd` [directory] <br />
+`cd directory` <br />
 naviate to 'directory'
+
+`cd dir1/dir1/dir3` <br />
+navigate to dir3
 
 `cd -` <br />
 go back one level 
