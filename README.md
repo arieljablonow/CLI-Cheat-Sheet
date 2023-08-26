@@ -8,9 +8,6 @@ naviate to dir
 `cd dir1/dir1/dir3` 
 navigate to dir3
 
-`cd -` 
-go back one level 
-
 `cd ~` 
 go to home directory 
 
@@ -38,6 +35,10 @@ lsit content + file info
 `cd dir && ls`
 navigate to dir and list content 
 
+`mkdir <name>` create a directory 
+
+`rm file.txt` removes file 
+
 ## Files
 `echo > file.txt` create a file if the file does not already exist
 
@@ -51,10 +52,20 @@ Important: <br />
 
 `cat file.txt` display content of file
 
+`head file.txt` dispay first ten lines of file
+
+`head -n x file.txt` prints the first x lines of file
+
+`tail state.txt` display last ten lines of file
+
+`tail -n x state.txt` display last x lines of file 
+
 ## Network
 `ifconfig` displays current network interface configurations  
 
 `ping` test functionality, confirm a connection between two hosts 
+
+`traceroute <destination>` outputs path taken from source to destination 
 
 
 
