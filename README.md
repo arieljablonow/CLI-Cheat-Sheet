@@ -39,6 +39,23 @@ lsit content + file info
 navigate to dir and list content 
 
 ## Files
+`echo > file.txt` create a file if the file does not already exist
+
+`echo text > file.txt` if file.txt already exists, this command will overwrite file.txt with 'text'
+
+`echo text >> file.txt` append text to file.txt
+
+Important: <br />
+`>` OVERRIDE
+`>>` APPEND
+
+`cat file.txt` display content of file
+
+## Network
+`ifconfig` displays current network interface configurations  
+
+`ping` test functionality, confirm a connection between two hosts 
+
 
 
 
