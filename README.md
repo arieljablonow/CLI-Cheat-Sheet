@@ -67,15 +67,14 @@ Important: <br />
 ## Network
 `ifconfig` displays current network interface configurations  
 This will include:
-/*: 
-    - IPv4 addresses
-    - IPv6 addresses
-    - MAC addresses associated with those interfaces
-    - Connection speeds
-    - Network masks
-    - Broadcast domains 
-    - Other confiiguration details 
-*/
+
++ IPv4 addresses
++ IPv6 addresses
++ MAC addresses associated with those interfaces
++ Connection speeds
++ Network masks
++ Broadcast domains 
++ Other confiiguration details 
 
 `ifconfig` can also be used to enable and disable itnerfaces, refresh or drop DHCP packets, and control the network interfaces
     
