@@ -104,7 +104,7 @@ Known as the Swiss army knife because it is very versatile. <br />
 Basic command: `nc <hostname> <port>`
 `netcat can act as a client and a listener
 
-###nmap
+### nmap
 USED FOR: host profiling <br />
 `nmap` is a port scanning tool <br />
 It can scan for:
