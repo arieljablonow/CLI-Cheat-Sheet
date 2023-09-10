@@ -107,11 +107,9 @@ Basic command: `nc <hostname> <port>`
 USED FOR: host profiling <br />
 `nmap` is a port scanning tool <br />
 It can scan for:
-/*:
-    - Hosts 
-    - Services and service versions
-    - Operating systems
-*/
++ Hosts 
++ Services and service versions
++ Operating systems
 
 Command: `nmap <IP address or hostname>`
 
