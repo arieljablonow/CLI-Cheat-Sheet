@@ -131,11 +131,11 @@ Command: `nmap <IP address or hostname>`
 
 80 HTTP | TCP
 
-88 Kerberos | TCP, UDP
+88 Kerberos | UDP
 
 110 POP3 | TCP
 
-149 IMAP
+149 IMAP | TCP
 
 389 LDAP | TCP,UDP
 
@@ -160,6 +160,12 @@ Command takes an input location  - `if` and an output location - `of` <br />
 Can create a disk image or restore from an image 
 
 `memdump` copy information in system memory to the standard output stream 
+
+`dig` DNS queries, can determine the IP addresses associated with domain names 
+
+`nslookup` simpler version of `dig`
+
+`whois` - provide information about the registered owners of domain names 
 
 
 
