@@ -69,8 +69,7 @@ When file permissions are displayed, it goes owner|group|everyone else
 `g` group <br />
 `o` other <br />
 
-example - <br />
-`rwxrw-r--` 
+example - `rwxrw-r--` 
 + owner can read, write, and execute
 + group can read and write
 + everyone else can read
@@ -82,8 +81,7 @@ Number representation: <br />
 
 When permissions are represented by numbers the first digit is for the user, second digit is for the group, third is for everyone else
 
-example - <br />
-`764`
+example - `764`
 + owner can read, write, and execute 
 + group can read and write 
 + everyone else can write 
