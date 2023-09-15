@@ -7,7 +7,7 @@ Linux commands
 `cd dir` 
 naviate to dir
 
-`cd dir1/dir1/dir3` 
+`cd dir1/dir2/dir3` 
 navigate to dir3
 
 `cd ~` 
