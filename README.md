@@ -32,7 +32,7 @@ list content of current directory
 list content including hidden files
 
 `ls -l `
-lsit content + file info
+list content + file info
 
 `cd dir && ls`
 navigate to dir and list content 
@@ -63,6 +63,33 @@ Important: <br />
 `tail -n x state.txt` display last x lines of file 
 
 ### permissions
+Three sets of permissions - owner, user group, everyone else <br />
+When file permissions are displayed, it goes owner|group|everyone else
+`u` user <br />
+`g` group <br />
+`o` other <br />
+
+example - <br />
+`rwxrw-r--` 
++ owner can read, write, and execute
++ group can read and write
++ everyone else can read
+
+Number representation:
+4 - read <br />
+2 - write <br />
+1 - execute <br />
+
+When permissions are represented by numbers the first digit is for the user, second digit is for the group, third is for everyone else
+
+example - <br />
+`764`
++ owner can read, write, and execute 
++ group can read and write 
++ everyone else can write 
+
+`chmod` command used to make changes to permission
+
 
 ## Network
 `ifconfig` displays current network interface configurations  
@@ -78,8 +105,6 @@ This will include:
 
 `ifconfig` can also be used to enable and disable itnerfaces, refresh or drop DHCP packets, and control the network interfaces
     
-
-
 `ping` test functionality, confirm a connection between two hosts 
 
 `traceroute <destination>` outputs path taken from source to destination 
@@ -95,13 +120,13 @@ Can also be used for file transfer via FTP, FTPS, SFTP
 
 ### netstat 
 USED FOR: getting information about active connections <br />
-`netstat` provides network statistics by protocol. For every connection, it will include infomration about the local address and remote address. It also provides information about the state of TCP connections.
+`netstat` provides network statistics by protocol. For every connection, it will include information about the local address and remote address. It also provides information about the state of TCP connections.
 
 ### netcat 
 USED FOR: creating network connections, transferring data <br />
 Known as the Swiss army knife because it is very versatile. <br />
-Basic command: `nc <hostname> <port>`
-`netcat can act as a client and a listener
+Basic command: `nc <hostname> <port>` <br />
+netcat can act as a client and a listener
 
 ### nmap
 USED FOR: host profiling <br />
@@ -115,43 +140,43 @@ Command: `nmap <IP address or hostname>`
 
 ### important ports
 
-7 echo | TCP,UDP
+7 echo 
 
-20 ftp transfer | TCP 
+20 FTP transfer
 
-21 ftp connection | TCP, UDP
+21 FTP connection 
 
-22 ssh | TCP
+22 SSH 
 
-23 telnet | TCP 
+23 telnet 
 
-25 SMTP | TCP
+25 SMTP 
 
-53 DNS | TCP, UDP
+53 DNS 
 
-80 HTTP | TCP
+80 HTTP 
 
-88 Kerberos | UDP
+88 Kerberos 
 
-110 POP3 | TCP
+110 POP3 
 
-149 IMAP | TCP
+149 IMAP 
 
-389 LDAP | TCP,UDP
+389 LDAP 
 
-443 HTTPS | TCP
+443 HTTPS
 
-636 LDAPS | TCP
+636 LDAPS 
 
-990 FTPS | TCP 
+990 FTPS 
 
-993 IMAPS | TCP
+993 IMAPS 
 
-995 secure POP | TCP
+995 secure POP 
 
-1812 RADIUS | UDP
+1812, 1813 RADIUS 
 
-3389 remote desktop protocol | TCP, UDP
+3389 remote desktop protocol 
 
 ## Other
 `dd` used to create images for forensic or other purposes <br />
@@ -165,7 +190,9 @@ Can create a disk image or restore from an image
 
 `nslookup` simpler version of `dig`
 
-`whois` - provide information about the registered owners of domain names 
+`whois` provide information about the registered owners of domain names 
+
+`dnsenum` dns deep dive - generates detailed recon info
 
 
 
