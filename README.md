@@ -75,10 +75,10 @@ example - <br />
 + group can read and write
 + everyone else can read
 
-Number representation:
-4 - read <br />
-2 - write <br />
-1 - execute <br />
+Number representation: <br />
+`4` - read <br />
+`2` - write <br />
+`1` - execute <br />
 
 When permissions are represented by numbers the first digit is for the user, second digit is for the group, third is for everyone else
 
